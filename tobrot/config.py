@@ -1,5 +1,5 @@
 import os
-
+from tobrot.sample_config import Config
 class Config(object):
     # get a token from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1093731084:AAHY0bIgN9vX3YGExOOOqir650Tm2DzLtSc")
