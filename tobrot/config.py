@@ -1,6 +1,6 @@
 import os
-from tobrot.sample_config import Config
-class Config(object):
+from tobrot.sample_config
+class Config(Config):
     # get a token from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1093731084:AAHY0bIgN9vX3YGExOOOqir650Tm2DzLtSc")
     # The Telegram API things
